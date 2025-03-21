@@ -155,7 +155,7 @@ h1 {
 /* SECTION2 */
 
 .section2 {
-    height: 130vh;
+    height: auto;
 }
 
 .main2 {
@@ -333,7 +333,8 @@ h1 {
 /* SECTION3 */
 
 .section3 {
-    height: 200vh;
+    height: auto;
+    padding-top: 100px;
 }
 
 .heading5 {
@@ -368,6 +369,16 @@ h1 {
     font-size: 32px;
     color: white;
     margin-right: 20px;
+}
+
+.headingjon1 {
+    font-size: 32px;
+    color: white;
+    margin-right: 68px;
+}
+
+.one {
+    margin-right: 10px;
 }
 
 .logos {
@@ -428,4 +439,111 @@ h1 {
 
 .imgEarth {
     margin:25px;
+}
+
+/* SECTION4 */ 
+
+.section4  {
+    height: auto;
+    width: 1500px;
+    padding-top: 100px;
+}
+
+.scrollH {
+    margin-top: 40px;
+    display: flex;
+    overflow-x: auto;
+    white-space: nowrap;
+    gap: 40px; 
+    scrollbar-width: thin;
+}
+
+.content1 {
+    background-image: url(./imgs/Image.png);
+    width: 1000px;
+    height: 300px;
+    border: 1px solid  #272A3C;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.two {
+    font-size: 18px;
+    margin-left: 50px;
+}
+
+.name {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    width: 85%;
+}
+
+.name-p {
+    font-size: 18px;
+    color: white;
+}
+
+.jobs {
+    font-size: 14px;
+    color: #C1C2D3;
+}
+
+.logo-wrapper {
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* SECTION5 */
+
+.section5 {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+
+.box {
+    padding-top: 100px;
+    display: flex;
+    gap: 40px;
+}
+
+.box-item1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    border: 1px solid  #272A3C;
+    border-top: 5px solid #272A3C;
+    border-radius: 23px;
+    width: 600px;
+    height: 190px;
+    background: linear-gradient(#04071D,#0C0E23);
+}
+
+.heading6 {
+    color: white;
+    font-size: 26px;
+}
+
+.text3 {
+    color: #BEC1DD;
+    font-size: 16px;
+}
+
+
+.brand {
+    width: 97px;
+    height: 87px;
+}
+
+.myName {
+    font-style: italic;
+    color: #CBACF9;
+    font-weight: bold;
+    text-decoration: underline;
 }

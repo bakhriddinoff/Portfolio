@@ -18,3 +18,5 @@ document.getElementById("copyButton").addEventListener("click", function(event) 
         console.error("Nusxalashda xato yuz berdi: ", err);
     });
 });
+
+
