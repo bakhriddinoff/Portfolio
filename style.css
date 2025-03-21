@@ -1,4 +1,78 @@
 *,html {
     padding: 0;
-    margin: 0;
+    margin: 0;;;
 }
+
+body {
+    background-color: #000319;
+}
+
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1300px;
+}
+
+.img1 {
+    position: absolute;
+
+}
+
+.img2 {
+    position: absolute;
+    left: 950px;
+}
+
+.img3 {
+    position: absolute;
+}
+
+.header-wrapper {
+    max-width: 1500px;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+
+header {
+    height: 80px;
+    width: 500px;
+    background: linear-gradient(#04071D,#0C0E23);
+    margin-top: 50px;
+    border-image: linear-gradient(#6971A2, #272A3C); 
+    border-radius: 10px;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+}
+
+nav {
+    border: 1px solid #6971A2; /* Chegarani shaffof qilish */
+    border-radius: 10px;
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+nav ul {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.links {
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    text-decoration: unset;
+    color: white;
+    font-size: 16px;
+}
+
+.inter {
+  }
