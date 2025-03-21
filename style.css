@@ -262,3 +262,23 @@ h1 {
         transform: translateY(0); /* Oxirida barcha bo'limlar scroll bo'ladi */
     }
 }
+
+/* MAIN3 */
+
+.card2 {
+    width:351px;
+    height: 180px;
+    background-image: url(./imgs/backgroundblobservicepng.png);
+    background-repeat: no-repeat;
+    border: 1px solid gray;
+    border-radius: 23px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.heading4 {
+    font-size: 24px;
+    color: white;
+}
