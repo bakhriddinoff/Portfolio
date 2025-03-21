@@ -5,6 +5,7 @@
 
 body {
     background-color: #000319;
+    font-family:"Inter", sans-serif;
 }
 
 .container {
@@ -20,11 +21,18 @@ body {
 
 .img2 {
     position: absolute;
-    left: 950px;
+    left: 940px;
 }
 
 .img3 {
     position: absolute;
+    z-index: -1;
+}
+
+.section1 {
+    display: flex;
+    flex-direction: column;
+    height: 250px;
 }
 
 .header-wrapper {
@@ -55,6 +63,7 @@ nav {
     display: flex;
     height: 100%;
     width: 100%;
+    z-index: 999;
 }
 
 nav ul {
@@ -64,7 +73,9 @@ nav ul {
     align-items: center;
     justify-content: center;
     gap: 2rem;
+    list-style-type: none;
 }
+
 
 .links {
     font-family: "Inter", sans-serif;
@@ -74,5 +85,180 @@ nav ul {
     font-size: 16px;
 }
 
-.inter {
-  }
+.links:hover {
+    color: gray;
+    transition: all ease-in-out 0.5s;
+    padding-bottom: 5px;
+    border-bottom: 1px solid gray;
+}
+
+.main {
+    justify-self: center;
+    z-index: 999;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 200px;
+}
+
+.heading2 {
+    font-weight: 300;
+    color: #E4ECFF;
+    font-size: 18px;
+}
+
+h1 {
+    font-size: 72px;
+    color: white;
+}
+
+.spn1 {
+    color: #CBACF9;
+    font-weight: 700;
+}
+
+.heading3 {
+    color: #E4ECFF;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.btn1 {
+    width: 207px;
+    height: 66px;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    background: linear-gradient(#161A31, #06091F);
+    border-radius: 14px;
+    border: none;
+    position: relative;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.btn1:after {
+    content: "";
+    position: absolute;
+    height: 103%;
+    width: 100.5%;
+    border-radius: 14px;
+    background-image: linear-gradient(to bottom right,#6971A2,#272A3C);
+    z-index: -1;
+}
+
+/* SECTION2 */
+
+.section2 {
+    height: 200vh;
+}
+
+.main2 {
+    display: flex;
+    gap: 20px;
+}
+
+.rightHero {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card1 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 251px;   
+    width: 522px;            
+    overflow-y: hidden;  /* Ortga chiqadigan kontentni yashirish */
+    background-color: lightgray;
+    background: linear-gradient(#04071D,#0C0E23);
+    border-radius: 23px;
+    border: 1px solid  #272A3C;
+}
+
+.text {
+    font-size: 14px;
+    z-index: 999;
+    color: #C1C2D3;
+    position: relative;
+    left: 40px;
+}
+
+.spn2 {
+    font-size: 32px;
+    font-weight: 700;
+    color: white;
+}
+
+.scroll-container {
+    display: flex;
+    flex-direction: column;  /* Kontentni vertikal joylashtirish */
+    animation: scroll-up 5s linear infinite;  /* Avtomatik scroll animatsiyasi */
+    display: flex;
+    gap: 20px;
+}
+
+.content {
+    height: 72px;
+    width: 140px;
+    background-color: #10132E;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    color: white;
+}
+
+/* Scroll animatsiyasi */
+
+@keyframes scroll-up {
+    0% {
+        transform: translateY(0);  /* Yuqoridan boshlash */
+    }
+    25% {
+        transform: translateY(10%); /* 25%dan keyin birinchi bo'limni ko'rsatamiz */
+    }
+    50% {
+        transform: translateY(30%); /* 50%dan keyin ikkinchi bo'limni ko'rsatamiz */
+    }
+    75% {
+        transform: translateY(-30%); /* 75%dan keyin uchinchi bo'limni ko'rsatamiz */
+    }
+    100% {
+        transform: translateY(0); /* Oxirida barcha bo'limlar scroll bo'ladi */
+    }
+}
+
+
+.scroll-container1 {
+    display: flex;
+    flex-direction: column;  /* Kontentni vertikal joylashtirish */
+    animation: scroll-down 5s linear infinite;  /* Avtomatik scroll animatsiyasi */
+    display: flex;
+    gap: 20px;
+}
+
+@keyframes scroll-down {
+    0% {
+        transform: translateY(-0);  /* Yuqoridan boshlash */
+    }
+    25% {
+        transform: translateY(-10%); /* 25%dan keyin birinchi bo'limni ko'rsatamiz */
+    }
+    50% {
+        transform: translateY(-30%); /* 50%dan keyin ikkinchi bo'limni ko'rsatamiz */
+    }
+    75% {
+        transform: translateY(30%); /* 75%dan keyin uchinchi bo'limni ko'rsatamiz */
+    }
+    100% {
+        transform: translateY(0); /* Oxirida barcha bo'limlar scroll bo'ladi */
+    }
+}
