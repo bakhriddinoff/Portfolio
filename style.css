@@ -654,3 +654,41 @@ h1 {
     text-align: center;
     line-height: 1.5;
 }
+
+/* FOOTER */
+
+.vector  {
+    position: absolute;
+    width: 1259px;
+    height: 800px;
+}
+
+footer {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footer-wrapper {
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.h2 {
+    margin-top: 300px;
+}
+
+.textFooter {
+    font-size: 16px;
+    color: #C1C2D3;
+}
+
+.textC {
+    font-size: 16px;
+    color: #C1C2D3;
+
+}
