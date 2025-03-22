@@ -660,18 +660,18 @@ h1 {
 .vector  {
     position: absolute;
     width: 1259px;
-    height: 800px;
+    height: 700px;
 }
 
 footer {
-    height: 80vh;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
+    gap: 100px;
 }
 
 .footer-wrapper {
-    height: 600px;
+    height: 500px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -679,7 +679,7 @@ footer {
 }
 
 .h2 {
-    margin-top: 300px;
+    margin-top: 200px;
 }
 
 .textFooter {
@@ -691,4 +691,20 @@ footer {
     font-size: 16px;
     color: #C1C2D3;
 
+}
+
+.apps-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.apps-item {
+    z-index: 999;
+    display: flex;
+    gap: 20px;
+}
+
+.apps-item img:hover {
+    transform: scale(1.1);
 }
