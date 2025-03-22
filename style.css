@@ -680,7 +680,7 @@ h1 {
 
 .vector  {
     position: absolute;
-    max-width: 1259px;
+    max-width: 1500px;
     height: 700px;
 }
 
@@ -688,15 +688,16 @@ footer {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    gap: 100px;
+    gap: 80px;
 }
 
 .footer-wrapper {
-    height: 500px;
+    height: 75vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    gap: 30px;
 }
 
 .h2 {
@@ -729,6 +730,10 @@ footer {
 
 .apps-item img:hover {
     transform: scale(1.1);
+}
+
+.space {
+    height: 200vh;
 }
 
 @media (max-width:1500px) {
@@ -811,7 +816,7 @@ footer {
         width: 30%;
         height: 500px;
     }
-    .boxImg1, .boxImg2, .boxImg3, .boxImg4 {
+    .boxImg1, .boxImg, .boxImg2, .boxImg3, .boxImg4 {
         display: none;
     }
     .box-item1 {
@@ -823,27 +828,39 @@ footer {
 
 @media (max-width:1100px) {
     .main2, .main3 {
-        width: 700px;
+        max-width: 700px;
         flex-direction: column;
+        align-items: center;
     }
-    .leftHero, .leftHero1 {
+    .leftHero, .leftHero1, .rightHero,.rightHero1 {
         width: 100%;
+        display: flex;
+        align-items: center;
+    }
+    .leftHero {
+        display: flex;
+        justify-content: center;
     }
     .imgTech {
         width: 100%;
     }
-    .leftHero, .rightHero img {
+    .leftHero img, .rightHero img, .imgTech{
         height: 100%;
+        width: 600px;
     }
     .card1 {
         width: 100%;
-        height: 100%;
+        height: 300px;
     }
     .main3 {
         justify-self: center;
     }
     .card2, .card3 {
-        width: 700px;
+        width: 600px;
+    }
+    .img4 {
+        width: 400px;
+        height: 400px;
     }
     .box-item1 {
         width:400px;
@@ -867,7 +884,7 @@ footer {
         width: 35px;
         height:35px;
     }
-    .headingjon {
+    .headingjon, .headingjon1 {
         font-size: 19px;
     }
     .text2 {
@@ -876,5 +893,125 @@ footer {
     .check img {
         width: 120px;
         height: 20px;
+    }
+    .imgg1 {
+        left: 30px;
+    }
+    .imgg2 {
+        left: 60px;
+    }
+    .imgg3 {
+        left: 90px;
+    }
+    .imgg4 {
+        left: 120px;
+    }
+    .imgg5 {
+        left: 150px;
+    }
+    .logos {
+        width: 400px;
+    }
+    .check {
+        margin-left: 0;
+    }
+
+}
+
+@media (max-width:900px) {
+    .cards1, .box, .box-wrapper {
+        flex-direction: column;
+    }
+    .box-wrapper {
+        align-items: center;
+        gap: 20px;
+    }
+    .boxes-item1, .boxes-item {
+        height: 450px;
+        width: 350px;
+    }
+    .headings {
+        font-size: 18px;
+    }
+    .text4 {
+        font-size: 14px;
+    }
+    .vector {
+        display: none;
+    }
+    .btn1 {
+        width: 150px;
+        height: 50px;
+    }
+    .section1 {
+        height: 150px;
+    }
+    .main {
+        height: 400px;
+    }
+    h1 {
+        font-size: 24px;
+    }
+    .heading3 {
+        font-size: 17px;
+    }
+    .img4 {
+        height: 290px;
+    }
+    .leftHero img, .rightHero img,.card3 {
+        /* height:300px;
+        width: 600px; */
+        height: 80%;
+        width: 80%;
+    }
+    .leftHero1{
+        width: 100%;
+    }
+    .imgTech {
+        width: 100%;
+    }
+    .card2 {
+        width: 100%;
+    }
+    .card1 {
+        height: 300px;
+        width: 75%;
+    }
+    .card3 {
+        height: 100%;
+        width: 430px;
+    }
+    .text1 {
+        font-size: 13px;
+    }
+    .spn2 {
+        font-size: 17px;
+    }
+    .img4 {
+        width: 200px;
+        height: 190px;
+    }
+    .apps-wrapper {
+        max-width: 700px;
+        justify-self: center;
+        flex-wrap: wrap;
+        gap: 40px;
+    }
+    .textFooter {
+        text-align: center;
+    }
+    .box {
+        padding-top: 40px;
+    }
+    .content1 {
+        height: 200px;
+        width: 700px;
+    }
+}
+
+@media (max-width:430px) {
+    .box-item1 {
+        width: 400px !important;
+        height: 224px !important; 
     }
 }
