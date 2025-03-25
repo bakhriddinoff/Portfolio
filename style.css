@@ -1012,6 +1012,7 @@ footer {
 @media (max-width:420px) {
     header {
         width: 85vw;
+        height: 50px;
     }
     ul {
         gap: 1rem !important;
@@ -1079,12 +1080,13 @@ footer {
     }
     .box-item1 {
         gap: 5px;
-        width: 90vw !important;
-        height: 50vh !important; 
+        width: 90vw;
+        height: 224px; 
         flex-direction: column;
     }
     .heading6 {
         font-size: 20px;
+        padding-top: 15px;
     }
     .brand {
         margin-left: 25px;
@@ -1092,7 +1094,7 @@ footer {
     }
     .text3 {
         font-size: 12px;
-        padding: 5px;
+        padding-top: 15px;
     }
     .headingjon, .headingjon1 {
         margin-left: 20px;
@@ -1124,7 +1126,7 @@ footer {
         gap: 20px;
     }
     .footer-wrapper {
-        height: 0;
+        height: 50vh;
         gap: 20px;
     }
     .btn1 {
