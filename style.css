@@ -1009,9 +1009,118 @@ footer {
     }
 }
 
-@media (max-width:430px) {
+@media (max-width:420px) {
+    header {
+        width: 85vw;
+    }
+    ul {
+        gap: 1rem !important;
+        width: 90vw;
+    }
+    .links {
+        font-size: 13px;
+    }
+    .header-wrapper {
+        justify-self: center;
+    }
+    .heading3 {
+        text-align: center;
+    }
+    .card3, .card2, .imgTech, .card1, .leftHero img, .rightHero img {
+        width: 90vw;
+    }
+    .card1 {
+        height: 200px;
+    }
+    .content {
+        width: 80px;
+        height: 40px;
+        font-size: 14px;
+    }
+    .cards1 {
+        margin-left: 0;
+    }
+    .card-item1 {
+        width: 350px;
+        height: 390px;
+    }
+    .text2 {
+        margin-left: 0;
+        font-size: 11px;
+        margin-top: 10px;
+    }
+    .logo-wrapper {
+        width: 100;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .logos {
+        height: 0;
+        margin-top: 30px;
+        margin-bottom: 25px;
+        margin-left: 0;
+        width: fit-content;
+        justify-content: unset;
+    }
+    .logos-item {
+        margin-left: 0;
+    }
+    .check img {
+        width: 80px;
+        height: 15px;
+    }
+    .imgg1 {
+        margin-left: 0;
+    }
+    .logos-item img {
+        margin-left: 0;
+        width: 30px;
+        height: 30px;
+    }
     .box-item1 {
-        width: 400px !important;
-        height: 224px !important; 
+        gap: 5px;
+        width: 90vw !important;
+        height: 50vh !important; 
+        flex-direction: column;
+    }
+    .heading6 {
+        font-size: 20px;
+    }
+    .brand {
+        margin-left: 25px;
+        align-self: start;
+    }
+    .text3 {
+        font-size: 12px;
+        padding: 5px;
+    }
+    .headingjon, .headingjon1 {
+        margin-left: 20px;
+        font-size: 20px;
+    }
+    .boxes-item, .boxes-item1 {
+        width: 300px;
+        height: 350px;
+        border-radius: 5px;
+    }
+    .h2 {
+        margin-top: 50px;
+    }
+    .btn2 {
+        width: 30vw;
+        height: 15vh;
+        font-size: 20px;
+    }
+    .heading5 {
+        font-size: 22px;
+    }
+    .textFooter {
+        font-size: 13px;
+    }
+    .textC {
+        font-size: 12px;
+    }
+    footer {
+        gap: 40px;
     }
 }
