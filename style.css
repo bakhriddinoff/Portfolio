@@ -1127,4 +1127,7 @@ footer {
         height: 0;
         gap: 20px;
     }
+    .btn1 {
+        width: 90vw;
+    }
 }
