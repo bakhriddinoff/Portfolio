@@ -1124,7 +1124,7 @@ footer {
         gap: 20px;
     }
     .footer-wrapper {
-        height: 30vh;
+        height: 0;
         gap: 20px;
     }
 }
