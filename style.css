@@ -1121,6 +1121,6 @@ footer {
         font-size: 12px;
     }
     footer {
-        gap: 40px;
+        gap: 0px;
     }
 }
