@@ -1121,6 +1121,10 @@ footer {
         font-size: 12px;
     }
     footer {
-        gap: 0px;
+        gap: 20px;
+    }
+    .footer-wrapper {
+        height: 30vh;
+        gap: 20px;
     }
 }
